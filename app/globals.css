@@ -1,26 +1,79 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-primary: #904d00;
+  --color-primary-container: #ff8c00;
+  --color-on-primary-container: #623200;
+  --color-secondary: #5e5e5e;
+  --color-secondary-container: #e2e2e2;
+  --color-surface: #fbf9f8;
+  --color-surface-container: #efeded;
+  --color-surface-container-low: #f5f3f3;
+  --color-surface-container-high: #e9e8e7;
+  --color-surface-container-highest: #e4e2e2;
+  --color-on-surface: #1b1c1c;
+  --color-on-surface-variant: #564334;
+  --color-background: #fbf9f8;
+  --color-on-background: #1b1c1c;
+  --color-outline: #897362;
+  --color-outline-variant: #ddc1ae;
+
+  --font-headline-xl: "Space Grotesk", sans-serif;
+  --font-headline-md: "Space Grotesk", sans-serif;
+  --font-display-lg: "Space Grotesk", sans-serif;
+  --font-body-md: "Lexend", sans-serif;
+  --font-body-lg: "Lexend", sans-serif;
+  --font-label-bold: "Lexend", sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@utility text-headline-xl {
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+@utility text-body-md {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+@utility text-body-lg {
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+@utility text-headline-md {
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+@utility text-display-lg {
+  font-size: 72px;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  font-weight: 900;
+}
+@utility text-label-bold {
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.1em;
+  font-weight: 600;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@utility container-max {
+  max-width: 1280px;
+}
+
+.slant-bg {
+  clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
+}
+.slant-reverse {
+  clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 100%);
+}
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-on-surface);
 }
