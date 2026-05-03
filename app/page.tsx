@@ -35,40 +35,40 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
             {/* Sport */}
-            <div className="group cursor-pointer">
+            <Link href="/search?q=thể thao" className="group cursor-pointer block">
               <div className="bg-surface-container-low aspect-[3/2] mb-4 overflow-hidden relative border-2 border-black transition-all hover:-translate-y-2 hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
                 <img alt="Thể Thao" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="/sport.png" />
               </div>
               <h3 className="font-label-bold uppercase text-center group-hover:text-primary-container transition-colors">Thể Thao</h3>
-            </div>
+            </Link>
             {/* Soccer */}
-            <div className="group cursor-pointer">
+            <Link href="/search?q=bóng đá" className="group cursor-pointer block">
               <div className="bg-surface-container-low aspect-[3/2] mb-4 overflow-hidden relative border-2 border-black transition-all hover:-translate-y-2 hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
                 <img alt="Bóng Đá" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="/soccer.png" />
               </div>
               <h3 className="font-label-bold uppercase text-center group-hover:text-primary-container transition-colors">Bóng Đá</h3>
-            </div>
+            </Link>
             {/* Fashion */}
-            <div className="group cursor-pointer">
+            <Link href="/search?q=thời trang" className="group cursor-pointer block">
               <div className="bg-surface-container-low aspect-[3/2] mb-4 overflow-hidden relative border-2 border-black transition-all hover:-translate-y-2 hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
                 <img alt="Thời Trang" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="/fashion.png" />
               </div>
               <h3 className="font-label-bold uppercase text-center group-hover:text-primary-container transition-colors">Thời Trang</h3>
-            </div>
+            </Link>
             {/* School */}
-            <div className="group cursor-pointer">
+            <Link href="/search?q=học đường" className="group cursor-pointer block">
               <div className="bg-surface-container-low aspect-[3/2] mb-4 overflow-hidden relative border-2 border-black transition-all hover:-translate-y-2 hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
                 <img alt="Học Đường" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="/school.png" />
               </div>
               <h3 className="font-label-bold uppercase text-center group-hover:text-primary-container transition-colors">Học Đường</h3>
-            </div>
+            </Link>
             {/* Home */}
-            <div className="group cursor-pointer">
+            <Link href="/search?q=trong nhà" className="group cursor-pointer block">
               <div className="bg-surface-container-low aspect-[3/2] mb-4 overflow-hidden relative border-2 border-black transition-all hover:-translate-y-2 hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
                 <img alt="Trong Nhà" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="/home.jpg" />
               </div>
               <h3 className="font-label-bold uppercase text-center group-hover:text-primary-container transition-colors">Trong Nhà</h3>
-            </div>
+            </Link>
           </div>
         </div>
       </section>

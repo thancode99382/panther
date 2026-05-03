@@ -11,7 +11,8 @@ export default function SearchPage({ searchParams }: { searchParams: Promise<{ q
 
   const searchResults = products.filter(product => 
     product.name.toLowerCase().includes(lowercaseQuery) || 
-    product.category.toLowerCase().includes(lowercaseQuery)
+    product.category.toLowerCase().includes(lowercaseQuery) ||
+    (product.tags && product.tags.some(tag => tag.toLowerCase().includes(lowercaseQuery)))
   );
 
   return (

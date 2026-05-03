@@ -45,12 +45,15 @@ export default function About() {
           <div className="space-y-8">
             <h2 className="font-display-lg text-5xl md:text-7xl uppercase italic tracking-tighter">SỰ GIAO THOA GIỮA <br/>KỸ THUẬT & NGHỆ THUẬT</h2>
             <p className="font-body-md text-secondary text-lg leading-relaxed">
-              Panther Athletics được thành lập bởi các kỹ sư hàng không vũ trụ và những vận động viên chạy marathon cự phách. Mục tiêu rất đơn giản: coi chuyển động của con người như một bài toán vật lý.
+              Panther là thương hiệu giày thể thao mang tinh thần tốc độ, sức mạnh và sự chinh phục. Lấy cảm hứng từ hình tượng loài báo – biểu tượng của sự nhanh nhẹn và bản lĩnh, Panther không chỉ tạo ra những sản phẩm thời trang mà còn truyền tải một phong cách sống năng động, táo bạo và không ngừng tiến về phía trước.
+
             </p>
             <p className="font-body-md text-secondary text-lg leading-relaxed">
-              Mỗi đường cong, mỗi tấm carbon và mỗi milimet bọt đều được tính toán để giảm lực cản, hoàn trả năng lượng và đẩy vận động viên tiến lên phía trước. Chúng tôi đã gạt bỏ các quy tắc thiết kế giày dép truyền thống và bắt đầu lại từ những dữ liệu thô.
+              Chúng tôi hướng đến việc kết hợp giữa thiết kế hiện đại và công năng tối ưu, mang lại trải nghiệm thoải mái và hiệu suất cao cho người dùng trong mọi hoạt động – từ thể thao đến đời sống thường ngày. Mỗi sản phẩm của Panther đều được chăm chút tỉ mỉ từ form dáng, chất liệu đến từng chi tiết nhận diện, nhằm tạo nên dấu ấn riêng biệt và dễ nhận biết.
             </p>
-            
+            <p className="font-body-md text-secondary text-lg leading-relaxed">
+             Panther không đơn thuần là một đôi giày, mà là người bạn đồng hành trên hành trình chinh phục mục tiêu, vượt qua giới hạn và khẳng định bản thân.
+            </p>
             <div className="grid grid-cols-2 gap-8 pt-8 border-t-2 border-black/10">
               <div>
                 <span className="block font-display-lg text-6xl italic text-black mb-2">12.5%</span>

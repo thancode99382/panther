@@ -9,7 +9,12 @@ export default function Footer() {
           <Link href="/" className="inline-flex items-center">
             <Image src="/logo.png" alt="Panther Athletics Logo" width={160} height={45} className="object-contain" />
           </Link>
-          <p className="font-['Space_Grotesk'] text-sm tracking-widest uppercase text-zinc-400">© 2024 PANTHER ATHLETICS. ĐỘ CHÍNH XÁC & ĐỘNG LỰC.</p>
+          <div className="font-['Space_Grotesk'] text-sm tracking-widest text-zinc-400 space-y-2 mt-2 text-center md:text-left">
+            <p className="uppercase">@panthersport</p>
+            <p className="uppercase">SĐT: +84 332 882 508</p>
+            <p>Địa chỉ: 33 Xô Viết Nghệ Tĩnh, Hòa Cường, TP. Đà Nẵng</p>
+            <p className="uppercase text-xs mt-4 opacity-50">© 2024 PANTHER ATHLETICS. ĐỘ CHÍNH XÁC & ĐỘNG LỰC.</p>
+          </div>
         </div>
         <div className="flex flex-wrap justify-center gap-8">
           <a className="font-['Space_Grotesk'] text-sm tracking-widest uppercase text-zinc-400 hover:text-white transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-orange-500" href="#">Bản Tin</a>
